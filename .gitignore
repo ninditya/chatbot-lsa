@@ -1,0 +1,26 @@
+# PHP Composer dependencies (tidak dibutuhkan untuk Streamlit)
+nlp-knn-lsa/vendor/
+nlp-knn-lsa/composer.phar
+
+# File JSON besar (pre-computed SVD/TF-IDF, total ~342MB)
+nlp-knn-lsa/json/
+
+# Model PHP (Rubix ML, tidak dibutuhkan untuk Streamlit)
+nlp-knn-lsa/*.model
+
+# File dataset besar (Excel, SQL dump)
+nlp-knn-lsa/dataset/*.xlsx
+nlp-knn-lsa/dataset/*.sql
+nlp-knn-lsa/dataset/~$*
+
+# PDF skripsi (besar)
+Chatbot-LSA/*.pdf
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# macOS
+.DS_Store
